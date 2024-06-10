@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("images/UCL-BG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100vh;
+}
+
+.result-section {
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  width: 400px;
+  height: 40px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 600px;
+  position: relative;
+  background-image: url("images/footballBG.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  margin: auto;
+  align-items: center;
+}
+
+#ball {
+  position: absolute;
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  transition: all;
+  transition-duration: 0.1s;
+}
+
+#first_player {
+  position: absolute;
+  top: 250px;
+  left: 150px;
+  width: 80px;
+  height: 80px;
+  transition: all;
+  transition-duration: 0.1s;
+}
+
+#second_player {
+  position: absolute;
+  top: 250px;
+  right: 150px;
+  width: 80px;
+  height: 80px;
+  transition: all;
+  transition-duration: 0.1s;
+}
